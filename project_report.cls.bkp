@@ -1,0 +1,72 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{project_report}[2024/04/11 v1.0, University of Wollongong]
+
+% Variables %
+\newcommand{\@unilogo}{UoWlogo}
+\newcommand{\@leftside}{36mm}   % there is a offset at the lefthand
+\newcommand{\@rightside}{20mm}
+\newcommand{\@topside}{1.65in}
+\newcommand{\@bottomside}{1.25in}
+
+% Package Loading %
+
+\LoadClass[a4paper, 12pt]{report}
+%
+%% To set the page layout
+%%
+%%     in goemetry:
+%%       paperwidth  = left + width  + right
+%%       paperheight = top  + height + bottom
+%%         top    includes \headheight + headsep
+%%         bottom includes \footskip
+%%
+%% The headheight must not < 14.49998pt for fancyhdr
+%% marginparwidth=-1pt Please do not use margin notes
+%%
+\RequirePackage[
+    left=\@leftside,
+    right=\@rightside, 
+    top=\@topside, 
+    bottom=\@bottomside, 
+    headheight=14.5pt, 
+    marginparwidth=-1pt
+]{geometry}
+\newcommand{\@setLongPage}{%
+	%\geometry{top=.75in} 
+	\setlength\topmargin{-.3in}    % move the top of text to the top of the head roughly 
+	                               %                      = remove the headheight
+	\enlargethispage{1.8cm}%
+}%
+\newcommand{\@setNormalPage}{%
+  \setlength\topmargin{0in}      % set it back to top=\@topside 
+}
+%
+%% To produce fancy headers
+%%   See \frontmatter
+\RequirePackage{fancyhdr}
+%
+%% For setting line space
+\RequirePackage{setspace}
+%
+%$ For loading the University logo
+\RequirePackage{graphicx}
+%
+%% To produce hypertext version of PDF
+\RequirePackage[plainpages=false, pdfpagelabels, bookmarks, bookmarksnumbered, breaklinks]{hyperref}
+%
+
+% Main Code
+%
+%% setting section numbering depth, 10 should be sufficient
+\setcounter{secnumdepth}{10}
+
+\renewcommand{\maketitle}{
+    \thispagestyle{empty}
+    \@setLongPage%
+    \IfFileExists{\@unilogo .png}{%
+    \noindent\includegraphics[width=\textwidth]{\@unilogo}}%
+    \vspace{1.5cm}
+    \begin{center}
+        \Large \MakeUppercase{\textbf{\@title}}%
+    \end{center}
+}
