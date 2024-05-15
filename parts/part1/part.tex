@@ -64,6 +64,8 @@ The results of our finding are summarized in Table \ref{tab:project_com}.
 
 \begin{table}[h]
     \centering
+    \caption{Comparison of Project Criteria and Their Impact}
+    \label{tab:project_com}
     \begin{tabularx}{\textwidth}{>{\hsize=0.7\hsize}X>{\hsize=0.5\hsize}X>{\hsize=1.2\hsize}X>{\hsize=1.3\hsize}X>{\hsize=1.3\hsize}X}
     \toprule
     \textbf{Criteria} & \textbf{Weight} & \textbf{Health Coverage Costs Business Model} & \textbf{Web-Enhanced Communications System} & \textbf{Recreation and Wellness Intranet Project} \\
@@ -76,8 +78,6 @@ The results of our finding are summarized in Table \ref{tab:project_com}.
     Potential resistance & 15\% & Project might not face much resistance since the application is relatively easy to build. & Project might not face much resistance since the application is relatively easy to build. & Senior employees might resist involvement in recreational programs due to greater responsibilities like family care. Other employees might also show disinterest. \\
     \bottomrule
     \end{tabularx}
-    \caption{Comparison of Project Criteria and Their Impact}
-    \label{tab:project_com}
 \end{table}
 
 \FloatBarrier
@@ -119,16 +119,13 @@ The chart shown in Figure \ref{fig:wsm} provides a visual representation of the 
 Before reaching a final conclusion on project selection, it is crucial to conduct a comprehensive financial analysis to ensure maximum benefit to our client. Our team performed an analysis on the Net Present Value (NPV) and Return on Investment (ROI) to verify that the selected project aligns with financial objectives and delivers optimal returns.
 
 \subsubsection*{Net Present Value (NPV)}
-
-Net Present Value (NPV) is a financial metric used to evaluate the profitability of an investment or project. It represents the difference between the present value of cash inflows and the present value of cash outflows over the investment's lifetime.
-
-The Net Present Value (NPV) is calculated using the following formula:
+Net Present Value (NPV) is a financial metric used to evaluate the profitability of an investment or project. It represents the difference between the present value of cash inflows and the present value of cash outflows over the investment's lifetime. NPV is calculated using the formula:
 
 \[
 \text{NPV} = \sum_{t=0}^{n} \frac{C_t}{(1 + r)^t}
 \]
 
-Where:
+where:
 \begin{itemize}
     \item \( C_t \) represents the cash flow at time \( t \),
     \item \( r \) is the discount rate,
@@ -136,9 +133,61 @@ Where:
     \item \( n \) is the total number of periods.
 \end{itemize}
 
-This formula discounts each of the cash flows back to their present value and then sums them up. NPV helps in assessing the profitability of a project by comparing the present value of cash inflows to the present value of cash outflows over the project's lifetime. A positive NPV indicates that the projected earnings (in present value terms) exceed the anticipated costs, thus making it a potentially profitable investment.
+This formula discounts each of the cash flows back to their present value and then sums them up. A positive NPV indicates that the projected earnings exceed the anticipated costs, thus making it a potentially profitable investment.
 
+\subsubsection*{Return on Investment (ROI)}
+Return on Investment (ROI) is a financial metric used to measure the efficiency of an investment or to compare the efficiencies of several different investments. ROI measures the amount of return on an investment relative to the investment's cost, calculated as:
 
+\[
+\text{ROI} = \left(\frac{\text{Total Benefits} - \text{Total Costs}}{\text{Total Costs}}\right) \times 100\%
+\]
+
+where:
+\begin{itemize}
+    \item \(\text{Total Benefits}\) represents the total cash inflows from the investment,
+    \item \(\text{Total Costs}\) represents the total cash outflows for the investment.
+\end{itemize}
+
+ROI is expressed as a percentage; a higher ROI means the investment gains compare favorably to its cost. It is used to evaluate the efficiency of an investment or compare the efficiencies of several different investments.
+
+\subsubsection*{Financial Analysis of Projects}
+The NPV and ROI for three projects are calculated and summarized in the Table \ref{tab:financial_analysis}, providing insights into the financial viability of each.
+
+\begin{table}[ht]
+    \centering
+    \caption{Financial Analysis for Three Projects}
+    \label{tab:financial_analysis}
+    \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Item} & \textbf{Year 0} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Year 4} & \textbf{Total} \\
+    \midrule
+    \multicolumn{7}{c}{\textbf{Project 1: Health Coverage Costs Business Model}} \\
+    \midrule
+    Benefits & \$0 & \$400,000 & \$400,000 & \$400,000 & \$400,000 & \$1,600,000 \\
+    Cost & \$100,000 & \$0 & \$0 & \$0 & \$0 & \$100,000 \\
+    Cashflow & -\$100,000 & \$400,000 & \$400,000 & \$400,000 & \$400,000 & \$1,500,000 \\
+    \textbf{NPV(D=8\%)} & \multicolumn{5}{c}{\textbf{\$1,134,121.05}} \\
+    \textbf{ROI} & \multicolumn{5}{c}{\textbf{1500\%}} \\
+    \midrule
+    \multicolumn{7}{c}{\textbf{Project 2: Web-Enhanced Communications System}} \\
+    \midrule
+    Benefits & \$0 & \$2,000,000 & \$2,000,000 & \$2,000,000 & \$0 & \$6,000,000 \\
+    Cost & \$3,000,000 & \$600,000 & \$600,000 & \$600,000 & \$600,000 & \$5,400,000 \\
+    Cashflow & -\$3,000,000 & \$1,400,000 & \$1,400,000 & \$1,400,000 & -\$600,000 & \$600,000 \\
+    \textbf{NPV(D=8\%)} & \multicolumn{5}{c}{\textbf{\$154,553.58}} \\
+    \textbf{ROI} & \multicolumn{5}{c}{\textbf{11\%}} \\
+    \midrule
+    \multicolumn{7}{c}{\textbf{Project 3: Recreation and Wellness Intranet Project}} \\
+    \midrule
+    Benefits & \$0 & \$600,000 & \$600,000 & \$600,000 & \$600,000 & \$2,400,000 \\
+    Cost & \$200,000  & \$0 & \$0 & \$0 & \$0 & \$200,000  \\
+    Cashflow & -\$200,000  & \$600,000 & \$600,000 & \$600,000 & \$600,000 & \$2,200,000 \\
+    \textbf{NPV(D=8\%)} & \multicolumn{5}{c}{\textbf{\$1,654,885.28}} \\
+    \textbf{ROI} & \multicolumn{5}{c}{\textbf{1100\%}} \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+    
 
 \section{Business Case Study}
 
