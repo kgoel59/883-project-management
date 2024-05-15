@@ -1,0 +1,942 @@
+Faculty of Engineering and Information Sciences School of Computing and Information Technology University of Wollongong
+
+
+
+
+RECREATION AND WELLNESS INTRANET
+
+Manage Your Health Inc.
+
+
+
+
+
+
+
+Thi Ha Vinh Nguyen - 8080264 Sonam Muneer - 8085687
+Fu-Shun Yu - 8109230
+Rusira Senath Liyanage Parana Liyanage - 8275129 Mandeep Singh Mann - 6870314
+Syed Eisa Alamgir - 8188154
+
+
+
+
+
+
+Lecturer: Dr. Steven Duong
+
+ABSTRACT
+In this era of digital health platform advancements, Manage Your Health Inc.'s "Recreation and Wellness Intranet Project" stands as a beacon for employee health management. This project leverages cutting-edge project management techniques to facilitate the smooth incorporation of diverse health and wellness modules within an organizational setting. It brings together elements like system analysis, resource distribution, stakeholder interaction, risk evaluation, and UML modelling, creating a well-defined blueprint for the proposed system. The document offers a detailed insight into project specifications and milestones with a focus on embedding a powerful health management system in the corporate world. By emphasizing proactive employee participation, clear UML diagrams, and strategic planning, the project is poised to redefine corporate health. This could lead to appreciable cost reductions and enhanced employee health. A deeper exploration offers a clearer understanding of the project's depth and its transformative potential in modifying health Standard in organizations.
+
+TABLE OF CONTENT
+
+
+
+ABSTRACT	i
+TABLE OF CONTENT	ii
+LIST OF FIGURES	iv
+LIST OF TABLES	vi
+MEMBER CONTRIBUTION	viii
+PART 1: PROJECT INTEGRATION MANAGEMENT	1
+Tast 1	1
+Tast 2	5
+Tast 3	9
+PART 2: PROJECT SCOPE MANAGEMENT	18
+Tast 1	18
+Tast 2	21
+Tast 3	24
+Tast 4	25
+PART 3: PROJECT SCHEDULE MANAGEMENT	27
+Tast 1	27
+Tast 2	30
+Tast 3	40
+PART 4: PROJECT QUALITY MANAGEMENT	44
+Tast 1	44
+Tast 2	46
+Tast 3	48
+PART 5: PROJECT RESOURCE MANAGEMENT	50
+Tast 1	50
+Tast 2	54
+PART 6: PROJECT RISK MANAGEMENT	55
+Tast 1	55
+Tast 2	59
+Tast 3	60
+PART 7: PROJECT STAKEHOLDER MANAGEMENT	61
+Tast 1	61
+Tast 2	64
+PART 8: PROJECT CLOSING AND LESSONS-LEARNED	67
+Tast 1	67
+Tast 2	69
+PART 9: UML DIAGRAMS	72
+
+LIST OF FIGURES
+Figure 1 -	The spreadsheet (left) and bar chart (right) of weighted scores of proposed projects.	6
+Figure 2 -	The Recreation and Wellness Intranet project's work breakdown structure	24
+Figure 3 -	Gantt chart of Recreation and Wellness Intranet project without durations and dependencies	25
+Figure 4 -	Gantt chart of Recreation and Wellness Intranet project without durations and dependencies (continued)	26
+Figure 5 -	A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project	34
+Figure 6 -	A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)	35
+Figure 7 -	A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)	36
+Figure 8 -	A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)	37
+Figure 9 -	The Recreation and Wellness Intranet project's network diagram (from left to right) 38
+Figure 10 - The Recreation and Wellness Intranet project's network diagram (from left to right - continued)	39
+Figure 11 - Milestone report for the Recreation and Wellness Intrant project	40
+Figure 12 - The Recreation and Wellness Intranet project overview	41
+Figure 13 - The resource overview and status of the Recreation and Wellness Intrant project	42
+Figure 14 - The overview of the Recreation and Wellness Intrant project	43
+Figure 15 - Pareto chart of recreational requested programs and company-sponsored classes	49
+Figure 16 - Resource histogram for testing employees	54
+
+Figure 17 - Using Confluence in the project management	70
+Figure 18 - Class diagram for the Recreation and Wellness system	72
+Figure 19 - Use case diagram for the Recreation and Wellness system	73
+Figure 20 - Sequence diagram for the Recreation and Wellness system	77
+Figure 21 - Activity diagram for in the Recreation and Wellness system	78
+
+LIST OF TABLES
+Table 1 -	Project proposals for Manage Your Health Inc. (MYH)	1
+Table 2 -	The weighted scoring models.	5
+Table 3 -	NPV and ROI calculations for the Health Coverage Costs Business model. 13 Table 4 -	NPV and ROI calculations for the Web-Enhanced Communications System.
+14
+Table 5 -	NPV and ROI calculations for the Recreation and Wellness Intranet Project 15
+Table 6 -	Financial analysis for Recreational and Wellness Intranet Project	16
+Table 7 -	The Recreation and Wellness Intranet Project's requirements traceability matrix 19
+Table 8 -	The Recreation and Wellness Intranet project's work breakdown structure with eight milestones	30
+Table 9 -	Quality requirements of the stakeholder expectations	44
+Table 10 -	Measurement of progress on meeting the requirements	46
+Table 11 -	Recreational requested programs and company-sponsored classes	48
+Table 12 -	Work breakdown structure for testing	50
+Table 13 -	Responsibility assignment matrices (RAM)	51
+Table 14 -	RACI chart for the clarification of roles and responsibilities for testing tasks 52
+Table 15 -	Responsibility assignment matrices for testing employees	54
+Table 16 -	The Recreation and Wellness Intranet Project's Risk Register	55
+Table 17 -	Probability/Impact Matrix for the Recreation and Wellness Intranet Project's Risk Register	59
+Table 18 -	The Recreation and Wellness Intranet project's stakeholders register	61
+Table 19 -	Stakeholder engagement plan for the Recreation and Wellness Intranet project 64
+
+Table 20 -	Stakeholder management strategy for the Recreation and Wellness Intranet project65
+Table 21 -	Use case description for place order in the Recreation and Wellness system.
+74
+Table 22 -	Use case description for program enrolment in the Recreation and Wellness system75
+Table 23 -	Use case description for track order status in the Recreation and Wellness system75
+Table 24 -	Use case description for manage employee health in the Recreation and Wellness system	76
+
+MEMBER CONTRIBUTION
+
+
+
+
+NameStudent numberContribution1Thi Ha Vinh Nguyen8080264100% contribution2Sonam Muneer8085687100% contribution3Fu-Shun Yu8109230100% contribution
+4Rusira Senath Liyanage Parana Liyanage
+8275129
+100% contribution5Mandeep Singh Mann6870314100% contribution6Syed Eisa Alamgir8188154100% contribution
+
+
+Tast 1.
+
+PART 1: PROJECT INTEGRATION MANAGEMENT
+
+
+Table 1 -Project proposals for Manage Your Health Inc. (MYH)
+
+
+Project nameArguments in favour of business strategyPotential financial upsidesAdditional advantagesPreliminary
+analysis value1Health Coverage Costs Business ModelPrioritize cost efficiency in healthcare for staff and overall organizational operations.With an estimated yearly saving of $20 per employee on health insurance for the next 4 years, a company of 20,000 staff can expect
+notable economic benefits.Employs the analytical tool for better insurance negotiations. Elevated staff contentment due to better policy and enhanced data
+protection measures.3-Medium2Web-Enhanced Communications SystemHarness online tools to amplify coordination between team members, clientele, and vendors, optimizing healthcarePotential annual savings of approximately $2 million after implementation, leading to an accumulated saving of $6 million over
+three years.Enhanced user interface and strengthened team collaboration. improved operational efficiency with all partners.3- Medium
+
+product and service
+delivery.Comprehensive data
+unification and visibility.3Recreation and Wellness Intranet ProjectEmphasize the reduction of internal expenditures while tapping into the capabilities of modern online platforms.Predicted annual savings of at least $30 per full-time employee for the forthcoming four years indicate significant financial prospects. With over 20,000 staff, the yearly savings potential is
+considerable.Decisions underpinned by robust data analytics.
+Enhanced corporate reputation and stronger staff loyalty. Healthier, more engaged employees reducing long-term health concerns.4-High
+Based on the company's strategic objective, which emphasizes on improving product cross-selling, reducing internal costs, and using web-based platforms that promote stronger cooperation, MYH's Information Technology Services (ITS) department has developed these initial project proposals:
+
+Overview of Manage Your Health, Inc.'s (MYH) initiatives:
+
+Top-tier Fortune 500 healthcare company MYH is making a strategic change. Key focus areas include reducing operational costs, promoting product cross-sales, and leveraging web technologies. The objective is to enhance collaboration with all stakeholders and optimize healthcare product/service delivery. The IT Services division has introduced the following projects in line with these objectives:
+
+Health coverage costs business model:
+
+* Objective: Dive deep into the healthcare expenditure data of MYH employees to drive informed policy alterations and efficient negotiations, aiming to slash both company-wide and individual healthcare costs.
+* Key features: Secure database of historical healthcare expenses.
+* Financials: For full-time employees over a 4-year period, savings of $20 per employee annually are anticipated.
+* Cost: $100,000
+* ROI: $1.5 million over 4 years.
+* Total savings: 20,000 employees x $20 x 4 years = $1.6 million
+* Project details: 1-year development period, $100,000 initial cost, medium initial ROI assessment.
+
+Web-enhanced communications system:
+
+* Objective: Enhance collaboration using web technology, aligning with the company's strategy for better service and product development.
+
+* Key	features:	Enhanced	e-commerce	integrations,	intuitive	ordering,	and responsive feedback mechanisms.
+* Financials: Estimated savings of $2 million/year for 3 years.
+* Total savings: $2 million x 3 years = $6 million
+* Cost: $3 million + 20% yearly maintenance ($600,000/year x 3 years = $1.8 million).
+* ROI: $1.2 million over 3 years.
+* Project details: 1-year development period, medium ROI assessment given the potential significant annual savings.
+
+Recreation and wellness intranet project:
+
+* Objective: Promote employee health, potentially leading to negotiations for lower health insurance premiums.
+* Key features: A variety of health-centric recreational programs.
+* Financials: Over a four-year period, full-time employees may expect to save $30 per employee year due to decreased health insurance rates.
+* Total savings: 20,000 employees x $30 x 4 years = $2.4 million
+* Cost: $200,000
+* ROI: $2.2 million over 4 years.
+* Project detail: A quicker 6-month rollout period, combined with a $200,000 preliminary cost; the project boasts a high ROI prediction.
+
+Tast 2.
+
+Based on the company's strategic objective, the Information Technology Services (ITS) department of MYH has devised weighted scoring models for all three projects.
+
+Table 2 -The weighted scoring models.
+
+
+CriteriaWeightHealth Coverage Costs Business ModelWeb-Enhanced Communications SystemRecreation and Wellness Intranet ProjectTie to business strategy10.00%9080100Upfront costs25.00%604070Potential net savings25.00%8090100Realistic technology15.00%806070In-house expertise10.00%807060Potential resistance15.00%706080Weighted Score100.00%74.565.581
+This table below demonstrates weighted scores of each proposed project.
+
+
+ProjectWeighted ScoreWeighted Score Bar Chart
+
+Recreation and Wellness Intranet Project
+
+81
+
+
+90807060Web-Enhanced Communications System65.550403020
+Health Coverage Costs Business Model
+74.510
+
+0Recreation and Wellness IntranetWeb-Enhanced CommunicationsHealth Coverage Costs BusinessProjectSystemModel
+Figure 1 - The spreadsheet (left) and bar chart (right) of weighted scores of proposed projects.
+
+Weighted scoring model overview:
+
+The weighted scoring model distributes specific weights in different criteria that are essential in gauging the feasibility and possible value of each project. By means of assigning scores based on these criteria, allows quantify the overall value of each project and compare their relative advantages.
+
+The Health Coverage Costs Business Model project scores exceed in most criteria, particularly in tie to business strategy, by tracking and managing healthcare expenses to reach the goal of reducing internal costs. The potential net savings via cost reduction strategies, potentially save $20 per full-time employee each year for four years. The realistic technology by tracking and analysing healthcare costs which involves managing data with the current intranet and integrating data from existing systems. In-house expertise, the ITS department has the expertise to develop and implement the application. However, the upfront costs for this project are estimated to be $100,000 which is reasonable, but potential resistance is a consideration.
+
+The Web-Enhanced Communications System project has an attractive potential net savings estimate; for the three years following deployment, it will save about $2 million annually. Realistic technology, the technology requests for a web-enhanced communications system is realistic and feasible. Even though it ties to business strategy with the company's target to improve collaboration, communication and streamline processes with customers and suppliers. But not directly reducing internal costs. The upfront costs for this project are estimated to be $3 million, the initial investment is enormous. Nevertheless, In-House Expertise, the expertise required for developing a web- based system, but the complexity of the project and maintenance might require extra resources or expertise. Potential Resistance, this project might face resistance from employees, customers, and suppliers due to adapt to new systems, processes workflows.
+
+Recreation and Wellness Intranet project promote employee health and save internal expenses, intranet projects develop in their connections with company strategy. Significant cost savings are possible due to the potential net savings, which are at least $30 for each full-time employee annually for four years. The upfront costs are evaluated to be $200,000, the hidden long-term cost savings and employee well-being benefits. In-house Expertise, the project might require developing some applications for employees to register activities and track healthcare programs. It should be consulted and cooperated with external health experts. Realistic Technology, the project requirements are considered realistic and feasible by developing an intranet application for employee well-being. Potential resistance, the project may encounter moderate resistance during its implementation, but the potential benefits and incentives offered could help mitigate resistance.
+
+With regard to weighted scores, the "Recreation and Wellness Intranet Project" got the highest score.
+
+Tast 3.
+
+The Recreation and Wellness Intranet project's business case
+
+Context
+
+A healthcare company called Manage Your Health, Inc. (MYH) is listed by Fortune as one of the top 500 global corporations. Employees in MYH are around 20,000 full-time staff members and over 5,000 part-timers. Diminished internal costs, increased product cross- selling, and making use of new Web-based technologies to assist employees, customers, and suppliers in working collaboratively to improve the development and delivery of healthcare products and services are the main objectives of MYH's strategic strategy.
+
+Business objective
+
+MYH introduces the Recreation and Wellness Intranet Project, which will cost about
+$200,000 and take six months to complete. Its objectives are as follows:
+
+* Enhance the health and well-being of employees.
+* Negotiate lower insurance premiums to decrease healthcare expenditures.
+* Promote employee engagement by implementing wellness programmes and recreational activities.
+* Use web-based tools to ensure smooth communication between staff, clients, and suppliers, use web-based tools.
+
+Problem statement
+
+Being a company providing global healthcare services, MYH is put in a situation to reduce healthcare expenses. Due to the deteriorating health of its employees, MYH currently faces difficulties with healthcare expenditures that are 20% more than the industry average for employee healthcare premiums. The Recreation and Wellness Intranet Project aims to
+
+solve this problem by promoting healthier lives among staff members, which saves healthcare costs.
+
+Critical assumption and constraints
+
+The application must offer substantial value by addressing the pressing issue of increasing healthcare costs and poor employee health within MYH's workforce. The effective implementation of the Recreation and Wellness Intranet Project depends on active employee participation in the offered programs, which will result in healthy behaviour changes.
+The Recreation and Wellness Intranet Project is limited by a set budget of $200,000 and a completion target of six months. The technical capabilities of the IT and development team must meet project requirements. Successful implementation depends on overcoming potential resistance to change among employees and ensuring seamless integration with existing systems. The project's scope is also constrained by legal and regulatory constraints.
+
+Analysis of options and recommendation
+
+* Option 1: Do Nothing
+o Pros: Minimal disruption and costs in the short term.
+o Cons: Missed opportunity to address rising healthcare costs and employee health issues. Lack of proactive approach to well-being.
+* Option 2: Purchase an Existing Application
+o Pros: Faster implementation with potential for tested features.
+o Cons: Upfront costs for licensing, potential misalignment with specific needs, limited customization.
+* Option 3: Design and Implement the Application
+o Pros: Customizable to fit MYH's unique requirements and objectives. Full control over features, functionality, and user experience.
+o Cons: Longer development timeline, initial investment needed.
+
+Recommendation:
+
+Considering discussions with management, Option 3: Design and Implement the Application, is the preferred choice. While it requires an initial investment, the benefits of a customized solution that aligns with MYH's goals and integrates well with existing systems outweigh the drawbacks. This proactive approach will allow MYH to effectively address healthcare costs and employee health concerns, leading to long-term benefits for the organization.
+
+Preliminary project requirements
+
+* Develop a user-friendly intranet application with features for program registration, participation tracking, and incentive management.
+* Offer recreational programs (e.g., soccer, softball, jogging) and health-management classes (e.g., weight management, stress reduction) within the application.
+* Ensure data security and privacy compliance.
+
+Estimated budget and financial evaluation
+
+Budget for the Project. $200,000.
+
+Estimated Savings: For full-time employees divided over four years, at least $30 per employee year will be saved.
+
+Schedule estimate
+
+The completion of this project is estimated to take six months.
+
+Potential risks
+
+1. Low employee engagement: Employees may not actively participate, resulting in minimal health improvements.
+
+2. Technical challenges: Application development may encounter delays or problems.
+3. Ineffective incentives: Incentives may not sufficiently motivate employees.
+
+Exhibits
+
+1. Calculation of Potential Savings: The potential savings of $30 per employee per year over four years indicate the project's financial advantage.
+2. Return on Investment (ROI): Once the project is completed, the ROI will be computed, and the actual savings will be compared to the investment. (Next page)
+
+Table 3 - NPV and ROI calculations for the Health Coverage Costs Business model.
+
+
+Health Coverage Costs Business ModelDiscount Rate4%Year 0Year 1Year 2Year 3TotalCosts$100,000$0$0$0$100,000Discount Factor10.9245562130.8889963590.854804191Discounted Costs$100,000$0$0$0$100,000Benefits$400,000$400,000$400,000$400,000$1,600,000Discount Factor10.9245562130.8889963590.854804191Discounted Benefits$400,000$369,822$355,599$341,922$1,467,343Discounted Benefits - costs$300,000$369,822$355,599$341,922$1,367,343Cumulative benefits - costs$300,000$669,822$1,025,421$1,367,343NPV$1,367,343ROI1267.34%
+Table 4 - NPV and ROI calculations for the Web-Enhanced Communications System.
+
+
+Web-Enhanced Communications SystemDiscount Rate4%Year 0Year 1Year 2Year 3TotalCosts$3,000,000$600,000$600,000$600,000$4,800,000Discount Factor10.9245562130.8889963590.854804191Discounted Costs$3,000,000$554,734$533,398$512,883$4,601,014Benefits$0$2,000,000$2,000,000$2,000,000$6,000,000Discount Factor10.9245562130.8889963590.854804191Discounted Benefits$0$1,849,112$1,777,993$1,709,608$5,336,714Discounted Benefits - costs($3,000,000)$1,249,112$1,177,993$1,109,608$536,714Cumulative benefits - costs($3,000,000)($1,750,888)($572,895)$536,714
+
+NPV$536,714ROI11.18%
+
+
+
+Table 5 - NPV and ROI calculations for the Recreation and Wellness Intranet Project
+
+
+Recreation and Wellness Intranet ProjectDiscount Rate4%Year 0Year 1Year 2Year 3TotalCosts$200,000$0$0$0$200,000Discount Factor10.9245562130.8889963590.854804191Discounted Costs$200,000$0$0$0$200,000Benefits$300,000$600,000$600,000$600,000$2,100,000Discount Factor10.9245562130.8889963590.854804191Discounted Benefits$300,000$554,734$533,398$512,883$1,901,014
+
+Discounted Benefits - costs$100,000$554,734$533,398$512,883$1,701,014Cumulative benefits - costs$100,000$654,734$1,188,132$1,701,014NPV$1,701,014ROI850.51%
+
+
+
+Table 6 -Financial analysis for Recreational and Wellness Intranet Project
+
+
+Financial Analysis for Recreational and Wellness Intranet ProjectDiscount Rate10%Year 0Year 1Year 2Year 3TotalCosts$200,000$200,000$0$0$200,000Discount Factor10.9090909090.8264462810.751314801Discounted Costs$200,000$181,818$0$0$181,818Benefits$300,000$600,000$600,000$600,000$2,100,000
+
+Discount Factor10.9090909090.8264462810.751314801Discounted Benefits$300,000$545,455$495,868$450,789$1,792,111Discounted Benefits - costs$100,000$345,455$495,868$450,789$1,392,111Cumulative benefits - costs$100,000$445,455$941,322$1,392,111NPV$1,392,111ROI805.15%AssumptionsDevelopment cost$200,000Benefits from saving premium for 20,000 employees$600,000Year 0 benefits is half as the other half of the year was spent in
+development$300,000
+PART 2: PROJECT SCOPE MANAGEMENT
+Tast 1.
+
+The Recreation and Wellness Intranet Project's achievement depends on detailed and precise requirements gathering data. The procedure that follows will be implemented to achieve this:
+
+Stakeholder identification:
+
+Determine all key stakeholders who will engage with or be influenced by the application's implementation. Employees, supervisors, the HR department, the IT department, and the leadership team might all be included.
+
+Stakeholder interviews:
+
+Conduct one-on-one interviews with key stakeholders to learn about their needs, expectations, and pain points in regard to employee health and wellness programs. Collect qualitative thoughts that may not be reflected in formal criteria.
+
+Employee surveys:
+
+Create and send a survey to all employees to obtain feedback on their preferences, interests, and suggestions for the new wellness application. This will help guarantee that the application is user-friendly and fits the workforce's different needs.
+
+Focus groups:
+
+Organize focus group sessions with key employees to learn more about their perspectives on the suggested capabilities, incentives, and any potential problems.
+
+Review of existing systems and data:
+
+Examine any existing employee health and wellness systems, databases, or documentation. This will aid in the identification of integration points and data sources for the new application.
+
+Benchmarking:
+
+Investigate and compare similar wellness programs or applications in other organizations to uncover best practices and suitable features to incorporate.
+
+Requirements documentation:
+
+Create a comprehensive requirements document outlining the new application's functional and non-functional requirements based on the information gathered. Make certain that the requirements are defined, measurable, and actionable.
+
+
+
+Requirements traceability matrix (RTM):
+
+Below is an example requirements traceability matrix that connects requirements to their sources and related features:
+
+Table 7 - The Recreation and Wellness Intranet Project's requirements traceability matrix
+
+Requirement IDSourceRequirement DescriptionFeatureREQ-001Stakeholder InterviewsEmployees should be able to
+enrol in company-sponsored recreational activities.Recreational
+Program Registration
+REQ-002Employee SurveysEmployees want to sign up for training and activities that will help them manage their health
+conditions.Health- Management Program
+RegistrationREQ-003Focus GroupsIncentives should be provided for meeting weight-loss targets
+and winning sporting events.Management of IncentivesREQ-004Stakeholder InterviewsEmployee participation in leisure and health-management programs should be tracked by
+the application.Monitoring Employee Program
+ParticipationREQ-005BenchmarkingThe system must have an easy- to-use interface.User-Friendly Interface
+These criteria, obtained through various means, provide a comprehensive grasp of the stakeholders' needs and expectations. The traceability matrix ensures that any requirement may be easily validated and changed during the project's lifecycle.
+
+Tast 2.
+
+                 The scope statement of the project (version 1) The title of the project: Recreation and Wellness Intranet Project Start date: 01/02/2023.
+End date: 09/10/2023
+
+Prepared by: Tony Prince, Project Manager
+
+Project Budget: $200,000
+
+The summary and justification of the project: By strengthening staff health within a year, the Recreation and Wellness Intranet project aims to reduce internal costs which is consistent with MYH's objective. The primary plan is targeted to develop, design, and carry out a user-friendly web-based application within a six-month and its budget is $200,000 for negotiating lower health insurance premiums. Estimated benefits of $600,000 annually emphasize the importance of self-sustainability, expected for next four years of $2.4 million when the project completion.
+
+Product characteristics and requirements:
+
+1. Recreational programs: Provide staff members with an easy-to-use interface so they can sign up for company-sponsored recreational activities including walking, jogging, softball, soccer, and bowling, as well as any future programs that may be desired.
+2. Health-Management programs: Provide classes and programs in order deal with employees' health conditions such as manage weight, reduce stress, remove smoking, and other negative effect related the health condition.
+
+3. Data tracking: The application will collect data relating staff involvement and participation in recreational and health-management campaigns for later evaluation, assessment, and improvement.
+4. Incentive program: The application will implement an incentive program to encourage employees to participate and achieve their aim by rewarding.
+5. Application accessibility: Making sure a user-friendly interface, the application must be useable the intranet to all people who associated with the company and must be reachable by a standard internet browser.
+6. Budget and dateline: The deadline for completing this project is six months, and the budget has been allocated.
+
+The outcomes of the project summarized:
+
+Deliverables connected to project management include the following: business case, scope statement, a work breakdown structure, schedule, cost baseline, project charter, team charter, progress reports, final project presentation, final project report, lessons-learned report, and any other documentation needed to monitor the project.
+
+Deliverables relating to products:
+
+1. Survey: Constructing a survey with questions that are open-ended as well as closed- ended to get responses from staff members on their preferences for leisure, health care, incentive programs, and the user experience of the application.
+2. Recreational program: Implementing a wide range of recreational programs to well employee needed and preferences.
+3. Health-management program: Designing and introduce health-related classes and programs of weight management, stress reduction, smoking quitting, or other relative health issues.
+4. Data tracking system: Establishing a system to monitor participation of employees in the programs offered by the company for all health-related activities.
+
+5. Incentive program: Design and establishing incentive and reward feature to provoke employees to participate these programs.
+6. Testing: Conducting full test to make sure the functionality, accessibility and user- friendly of the application.
+7. Training: Set up training workshops to educate employees regarding to correctly operate the application.
+8. Announcement: Disseminate the application its advantages for employees' health by designing eye-catching promotion activities, encouraging them to participate.
+
+Project success criteria: The project of Recreation and Wellness Intranet must follow the specifications to reach company target and employee needs, to ensure the application functions smoothly, all aspect testing is necessary. Our goal requires the project to be completed within six months and within the $200,000. Moreover, the project should achieve self-sufficiency in a year of implementation, it is vital for employee participation and satisfaction for maximum benefits to the company and employees.
+
+Tast 3.
+
+
+
+
+Figure 2 - The Recreation and Wellness Intranet project's work breakdown structure
+
+Tast 4.
+
+
+IDTask NameDurationPredecessorsResource Names2 Oct '239 Oct '2316 Oct '2323 Oct '2330 Oct '236 Nov '23MTWTFSSMTWTFSSMTWTFSSMTWTFSSMTWTFSSMTWTFSS11 Initial phase1 day				21.1 Project Proposal1 day31.1.1 Identify the P roject Idea1 day41.1.2 Draft one-page memo /bus ines s cas e1 day51.1.3 Review and incorporate feedback.1 day61.2 Analyze Stakeholders1 day71.2.1 Identify Stakeholders1 day81.2.2 Evaluate Stakeholder requirements .1 day91.2.3 Map and prioritize s takeholder.1 day101.3 Develop Project Charter1 day111.3.1 Define project s cope and objectives .1 day121.3.2 Formation of project team1 day131.3.3 Kickoff meetings and approvals1 day142 Planning Phase1 day152.1 Develop WBS1 day162.2 Surveying1 day172.2.1 Draft s urvey ques tions1 day182.2.2 Finalize s urvey details .1 day192.2.3 Dis tribute s urvey to s takeholders .1 day202.2.4 Analyze s urvey res ult.1 day212.3 Requirement Gathering for the system.1 day222.3.1 Recreational Programs Registration1 day232.3.1.1 Develop Us er s tories & Us e Cas es1 day242.3.1.2 Create RTM & Lis t the required functionalities .1 day252.3.1.3 Identify Gaps1 day262.3.2 Health-Management Classes Registration1 day272.3.2.1 Develop Us er s tories & Us e Cas es1 day282.3.2.2 Create RTM & Lis t the required functionalities .1 day292.3.2.3 Identify Gaps1 day302.3.3 Tracking System1 day312.3.3.1 Identify databas e s tructure.1 day322.3.3.2 Create RTM & Lis t the required functionalities .1 day332.3.3.3 Incentive Sys tem1 day342.3.3.4 Identify & finalize pos s ible incentive options in the proces s .1 day352.3.3.5 Create RTM & Lis t the required functionalities .1 day362.4 Plan promotional Activities for the Application1 day372.4.1 Ris k Management plan1 day382.4.2 Identifying Ris k1 day392.4.3 Plan for ris k res pons e1 day402.5 Budgeting1 day412.5.1 Budget Es timation1 day422.5.2 Budget Approval1 day432.6 Scheduling1 day442.6.1 Identify Activities1 day452.6.2 Es timate Time for activities .1 day462.6.3 Create Ghantt chart.1 day
+Figure 3 - Gantt chart of Recreation and Wellness Intranet project without durations and dependencies
+
+
+IDTask NameDurationPredecessorsResource Names2 Oct '239 Oct '2316 Oct '2323 Oct '2330 Oct '236 Nov '23MTWTFSSMTWTFSSMTWTFSSMTWTFSSMTWTFSSMTWTFSS473 Design Phase1 day				483.1 Design development for Recreational Programs Registration1 day493.1.1 Us er Inte rfa ce Des ign for re gis tra tion form .1 day503.1.2 Des ign Back end1 day513.1.3 Cre ation & Approva l of BPD (Bus ines s P roc es s Document)1 day523.2 Design development for Health-Management Classes Registration.1 day533.2.1 Us er Inte rfa ce des ign for re gis tra tion form1 day543.2.2 Back-e nd des ign1 day553.2.3 Cre ation & Approva l of BPD (Bus ines s P roc es s Document)1 day563.3 Design Tracking System1 day573.3.1 Des ign the tra cking Das hboa rd.1 day583.3.2 Des ign Data s truc ture and tra cking c rite ria1 day593.3.3 Integra te Data analys is tools .1 day603.3.4 Cre ation & Approva l of BPD (Bus ines s P roc es s Document)1 day613.4 Design Incentive System1 day623.4.1 Des ign the Incentive Das hboa rd1 day633.4.2 Des ign us er Inte rfa ce P rofile das hboa rd1 day643.4.3 Integra te Incentive c rite ria .1 day653.4.4 Cre ation & Approva l of BPD (Bus ines s P roc es s Document)1 day663.4.5 Des ign Ha rdwa re connections re quire d.1 day674 Execution Phase1 day684.1 Implementation of Recreational Programs Registration1 day694.1.1 Front end development of the form1 day704.1.2 Development of Back end1 day714.1.3 Databas e implementation1 day724.2 Implementation of Health-Management Classes Registration.1 day734.2.1 Us er Inte rfa ce development for re gis tra tion form1 day744.2.2 Back-e nd development1 day754.2.3 Databas e implementation1 day764.3 Development of Tracking System1 day774.3.1 Development of tra cking Das hboa rd.1 day784.3.2 Implementation of Data s truc ture and tra cking c rite ria1 day794.3.3 Integra tion of Data analys is tools .1 day804.3.4 Databas e implementation1 day814.4 Development of Incentive System1 day824.4.1 Des ign the Incentive Das hboa rd1 day834.4.2 Des ign us er Inte rfa ce P rofile das hboa rd1 day844.4.3 Integra te Incentive c rite ria .1 day854.4.4 Databas e implementation1 day864.5 Install hardware components.1 day874.6 Testing1 day884.6.1 Unit tes ting1 day894.6.2 Integra tion tes ting1 day904.6.3 Us er tes ting1 day914.7 Go live of Application.1 day924.7.1 Monitoring the s ys tem1 day934.7.2 Pos t Go- live announcement1 day944.7.3 Us er Tra ining of s ys tem1 day954.7.4 Feedback collection from us e rs1 day964.7.5 Hyper ca re s upport pos t go-live .1 day974.8 Advertise Promotional activities for the system.1 day985 Closing1 day995.1 P re pa re of final proje ct re port1 day1005.2 Conduct P roje ct clos ing meeting1 day1015.3 Upload and s tore proje ct documentations1 day
+Figure 4 - Gantt chart of Recreation and Wellness Intranet project without durations and dependencies (continued)
+
+PART 3: PROJECT SCHEDULE MANAGEMENT
+Tast 1.
+
+Project manager: Tony Prince Programmer/analyst: Mandeep Singh Mann Programmer/analyst: Thi Ha Vinh Nguyen Network specialist: Syed Eisa Alamgir Business analyst: Sonam Muneer
+Human resources staff member: Rusira Senath Liyanage Parana Finance staff member: Fu Shun Yu
+The Recreation and Wellness Intranet project has eight milestones:
+
+Project kick-off milestone: This represents the first step toward conducting the kick-off meeting for the project. The major task is set up the meeting, prepare the agenda and notify team members and stakeholders to attend. This milestone marks the official start of the project and ensures that all team members are aware of their roles and responsibilities.
+
+Planning phase completion milestone: At this milestone, the planning phase of the project is completed. Significant assignments are completed, such as integrating data analysis tools, creating the Work Breakdown Structure (WBS), preparing surveys, analysing requirements, planning risk management, estimating budgets, and developing project schedules. This checkpoint ensures that the project team is prepared with the next plan and indicates the transition from the planning to the execution phases.
+
+Budget approval milestone: This milestone indicates that the successful estimation and approval of the project budget. The major tasks such as budget estimation and obtaining the necessary approvals.
+
+Gantt chart creation milestone: when it comes to this milestone, it means the completion of the project scheduling phase. The core tasks involve identifying project activities, estimating their time range, and drafting the Gantt chart for visual project tracking.
+
+Design phase completion milestone: This milestone indicates that the design phase has been completed. The major tasks including the design of user interfaces and back-end systems, the creation and approval of essential Business Process Documents (BPD), and the planning for hardware design and integration. With this project is now prepared to move into the development phase with approved and well-structured designs, ensuring a smooth transition from design to execution.
+
+Execution phase completion milestone: This milestone represents the conclusion of the execution phase which means that major tasks include the implementation of system components such as Recreation Programs Registration, Health-Management Classes Registration, Tracking System, Incentive System, and the installation of hardware components.
+
+Testing and quality assurance milestone: In this milestone is make sure the system is ready and reliable before deployment. Including unit testing, integration testing, and user testing. Additionally, it involves the resolution of any identified issues and the preparation for the system's go-live phase. This milestone plays a crucial role in verifying that the system is fully functional and meets the required quality standards.
+
+Monitoring and promotion milestone: When the project complete, it does not mean the job is finished, this milestone is ensuring the operation of the system implementation and actively promoting to employees. It involves ongoing system monitoring to detect and address any operational issues or performance concerns. Moreover, user feedback can help
+
+the system continuously improving. Hyper-care support ensures that any immediate issues or concerns are addressed quickly. The promotional activities to encourage employees to use the system effectively.
+
+Tast 2.
+
+Table 8 -The Recreation and Wellness Intranet project's work breakdown structure with eight milestones
+
+
+WBSTask NameDurationStartFinishPredecessors0CSIT883177 daysWed 2/1/23Thu 10/5/231Initial phase29 daysWed 2/1/23Mon 3/13/231.1Project Proposal9 daysWed 2/1/23Mon 2/13/231.2Analyze Stakeholders10 daysWed 2/15/23Tue 2/28/2321.3Develop Project Charter10 daysTue 2/28/23Mon 3/13/2361.4Project Kick-off Milestone0 daysMon 3/13/23Mon 3/13/23132Planning Phase52 daysMon 3/13/23Tue 5/23/2312.1Develop WBS1 dayMon 3/13/23Mon 3/13/232.2Surveying12 daysTue 3/14/23Wed 3/29/23162.3Requirement Gathering for the system.22 daysThu 3/30/23Fri 4/28/23172.4Plan promotional activities for the Application11 daysTue 4/25/23Tue 5/9/2322
+
+2.5Planning Phase Completion Milestone0 daysFri 5/5/23Fri 5/5/23403Budgeting3 daysMon 5/8/23Wed 5/10/23373.1Budget Estimation2 daysTue 5/9/23Wed 5/10/233.2Budget Approval1 dayWed 5/10/23Wed 5/10/23433.3Budget Approval Milestone0 daysWed 5/10/23Wed 5/10/23444Scheduling Phase3 daysThu 5/11/23Mon 5/15/23424.1Identify Activities2 daysThu 5/11/23Fri 5/12/234.2Estimate Time for activities.1 dayFri 5/12/23Fri 5/12/234.3Gantt Chart Creation
+
+Milestone0 daysMon 5/15/23Mon 5/15/23495Design Phase52 daysTue 5/23/23Wed 8/2/23155.1Design development for Recreational Programs Registration13 daysTue 5/23/23Thu 6/8/235.2Design development for
+
+Health-Management Classes Registration.13 daysFri 6/9/23Tue 6/27/2352
+
+5.3Design Tracking System13 daysWed 6/28/23Fri 7/14/23565.4Design Incentive System13 daysMon 7/17/23Wed 8/2/23605.5Design Phase Completion Milestone0 daysWed 8/2/23Wed 8/2/23706Execution Phase34 daysThu 8/3/23Tue 9/19/23516.1Implementation of Recreational Programs Registration4 daysThu 8/3/23Tue 8/8/236.2Implementation of Health-Management Classes Registration.4 daysWed 8/9/23Mon 8/14/23736.3Development of Tracking System6 daysTue 8/15/23Tue 8/22/23776.4Development of Incentive System6 daysWed 8/23/23Wed 8/30/23816.5Install hardware components.1 dayThu 8/31/23Thu 8/31/23866.6Execution Phase Completion Milestone0 daysThu 8/31/23Thu 8/31/23917Testing Phase12 daysFri 9/1/23Mon 9/18/23917.1Unit testing4 daysFri 9/1/23Wed 9/6/23
+
+7.2Go live of Application.6 daysThu 9/7/23Thu 9/14/237.3Advertise Promotional activities for the system.2 daysThu 9/14/23Fri 9/15/23977.4Testing and Quality Assurance Milestone0 daysFri 9/15/23Fri 9/15/231038Closing Phase14 daysMon 9/18/23Thu 10/5/23728.1Prepare of final project report5 daysMon 9/18/23Fri 9/22/238.2Conduct project closing meeting5 daysMon 9/25/23Fri 9/29/231068.3Upload and store project documentations4 daysMon 10/2/23Thu 10/5/231078.4Monitoring and Promotion Milestone0 daysThu 10/5/23Thu 10/5/23108
+
+
+
+Figure 5 - A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project
+
+
+
+
+Figure 6 - A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)
+
+
+
+
+Figure 7 - A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)
+
+
+
+
+Figure 8 - A Gantt chart showing dependencies and durations for the Recreation and Wellness Intranet project (continued)
+
+
+
+
+
+Figure 9 - The Recreation and Wellness Intranet project's network diagram (from left to right)
+
+
+
+
+
+
+Figure 10 - The Recreation and Wellness Intranet project's network diagram (from left to right - continued)
+
+Tast 3.
+
+
+
+
+
+Figure 11 - Milestone report for the Recreation and Wellness Intrant project
+
+
+
+
+
+
+Figure 12 - The Recreation and Wellness Intranet project overview
+
+
+
+
+
+Figure 13 - The resource overview and status of the Recreation and Wellness Intrant project
+
+
+
+
+Figure 14 - The overview of the Recreation and Wellness Intrant project
+
+PART 4: PROJECT QUALITY MANAGEMENT
+Tast 1.
+
+Table 9 -Quality requirements of the stakeholder expectations
+
+
+S/No	Requirements	Description1High User Engagement: At least 18,000 (90%) of full-time employees should log into the system within three weeks of
+rollout.Ensuring most of the employees access the new system shortly after its rollout shows system awareness.2Registration for Recreational Programs: Within 4 weeks, at least 70% of employees should have registered for at least    one    company-sponsored
+recreational program.Aiming for 70% registration within a month ensures increased engagement and interest in the offered recreational activities.3Registration for Health-management Programs: At least 60% of employees should enrol in at least one health- management program within 1 month of
+system launch. A 60% enrolment rate in 1 month reflects employee commitment to health and system programs.4Incentive Visibility: An easy-to- understand incentive structure should be in place, motivating employees to join
+programs and meet specific goals.This will help drive the participation by displaying a clear and easy to understand reward system.5Tracking	&	Reporting:	The	system should	automatically	track	employee
+involvement and provide monthly reportsReporting is crucial as it monitor participation rates and the success of
+showcasing	participation	rates	and
+achievements.the	recreational	and	health-
+management programs.6User-friendly InterfaceUsers should be able to navigate and utilize the main features effortlessly without  the  need  for  additional
+training or guidance.7Security: Zero breaches to employee health data.Protecting sensitive employee health data is important. To maintain trust in the system it's crucial to ensure no unauthorized  access  or  breaches
+occur.8System Performance: Page load times should not exceed 2 seconds and system should be always available.Speed is essential for user satisfaction and Consistent system availability with no downtime is required for
+increased engagement.9Reduction in Healthcare CostsThis system's primary objective is to not only reduce healthcare expenses but also to enhance health in ways
+that can be measured.10Feedback MechanismFeedback helps improve and adapt the system. A simple feedback mechanism will help users give suggestions,    concerns,    and
+compliments.
+Tast 2.
+
+Table 10 -Measurement of progress on meeting the requirements
+
+
+S/No	Requirements	Method of Measurement1High user engagement: 18,000 (90%) of
+full-time employees should log into the system within three weeks of rollout.Track logins via system's backend analytics.2Within 4 weeks, at least 70% of employees should have registered for at least one company-sponsored recreational
+program.Monitor the number of registrations in the system's tracking feature.3At least 60% of employees should enrol in
+at least one health-management program within 1 month of the system launch.Monitor the number of enrolments in the system's tracking feature.4An easy-to-understand incentive structure should be in place, motivating employees
+to join programs and meet specific goals.Conduct periodic surveys to assess the transparency and effectiveness of
+the incentive structure.5The system should automatically track employee involvement and provide monthly reports showcasing participation
+rates and achievements.Check automated monthly reports generated by the system to track usage by username, department, and
+other criteria6Users should be able to navigate and utilize the main features effortlessly without the need for additional training or
+guidance.Conduct usability testing sessions and gather post-training feedback to evaluate the interface.
+7Security:	Zero	breaches	to	employee health data.Conduct regular security audits and
+penetration testing to ensure data safety.8Page load times should not exceed 2
+seconds and the system should always be available.Use  website  monitoring  tools  to
+check page load times and ensure consistent system uptime.9The main goal of this system is not just to improve	health	but	also	to	have	a
+measurable impact on healthcare costs.Perform	a	before-and-after comparison on healthcare costs to
+determine any reduction.10A feedback mechanism should be in place
+to	allow	users	to	give	suggestions, concerns, and compliments.Monitor the number and quality of
+feedback	received	through	the system's feedback mechanism.
+Tast 3.
+
+Table 11 -Recreational requested programs and company-sponsored classes
+
+
+Requested Programs or ClassesTimes RequestedTotalCumulative of RequestsWalking program7,11524%24%Volleyball program2,0547%31%Weight reduction class8,87530%62%Stop smoking class4,88917%78%Stress reduction class1,8946%85%Soccer program3,29711%96%Table tennis program1200%97%Softball program9763%100%Total29,220100%
+
+
+Figure 15 - Pareto chart of recreational requested programs and company-sponsored classes
+
+PART 5: PROJECT RESOURCE MANAGEMENT
+Tast 1.
+
+Table 12 -Work breakdown structure for testing
+
+
+TASKTIMEDELIVERABLETesting1.1 Write Test Plan1 weekTest Plan Document1.2 Unit Testing1 weekUnit Test Reports1.3 Integration Testing2 weeks1.3.1 Registration Module5 daysIntegration Test Reports for Registration1.3.2 Tracking Module5 daysIntegration Test Reports for Tracking1.3.3 Incentives Module4 daysIntegration Test Reports for Incentives1.4 System Testing1 weekSystem Test Reports1.5 User Acceptance Testing1 weekUser Acceptance Test Reports
+Table 13 -Responsibility assignment matrices (RAM)
+
+
+
+RICI CHART
+
+Table 14 -RACI chart for the clarification of roles and responsibilities for testing tasks
+
+
+TaskProject managerAspiring
+project managerProgrammer
+/Analyst:Network specialist:Business analystUser representativesConsulting firmWrite Test PlanRR/AR/CCCIR/CUnit TestingRR/AR/CCCIR/CIntegration TestingRR/AR/CR/AR/CIR/CRegistration ModuleRR/AR/CR/AR/CIR/CTracking ModuleRR/AR/CR/AR/CIR/CIncentives ModuleRR/AR/CR/AR/CIR/CSystem TestingRR/AR/CR/AR/CAR/CUser Acceptance TestingAR/AR/CCCAR/C
+Assumptions for RACI Chart:
+
+Tony is the Project Manager who responsible for coordinating the overall testing and has an accountable role in system testing.
+
+Patrick is the Aspiring Project Manager who responsible for assisting in project management tasks and has an accountable role in all testing tasks.
+
+Mandeep and Vinh are the Programmer/Analysts who responsible and consulted role for all testing tasks.
+
+Syed and Nancy are the Network Specialist who responsible for network-related aspects in integration of and system testing tasks and have an accountable role in all testing tasks.
+
+Sonam and Bonnie, the Business Analysts who responsible for testing tasks related to business processes in integration and system testing tasks and have an accountable role in all testing tasks.
+
+Rusira and Yu are the User Representatives who actively involved in User Acceptance Testing and have an accountable role in User Acceptance Testing.
+
+The Consulting Firm is consulted and involved in all testing tasks as needed.
+
+Tast 2.
+
+Responsibility Assignment Matrices (RAM)
+
+Table 15 -Responsibility assignment matrices for testing employees
+
+
+Senior testerJunior testersUser-group workersUser-group managersFirst week1020Second week1000Third week1200Fourth week1240Fifth week1242Sixth week1242
+Resource Histogram
+
+
+
+Figure 16 - Resource histogram for testing employees
+
+
+
+Tast 1.
+
+PART 6: PROJECT RISK MANAGEMENT
+
+
+Table 16 - The Recreation and Wellness Intranet Project's Risk Register
+
+
+Risk IDRisk DescriptionProbability (1-10)Impact (1-10)Risk Score (Probability x Impact)Response StrategyTasks RequiredTime EstimateCost EstimateR1Key team members leaving8972MitigationIdentify replacement team members, update project plan, and conduct additional training if
+necessary.2 months$10,000
+
+R2Uncooperative users6742AvoidanceImprove communication and user engagement, conduct user training, and seek feedback
+continuously.Ongoing throughout the project$5,000R3Team members not providing status5630MitigationImplement regular status reporting mechanisms and establish clear expectations for status
+updates.Ongoing throughout the project$2,000
+
+R4Inadequate budget4832ContingencyExplore additional funding sources, consider prioritizing features, and seek cost- saving
+alternatives.As neededVariable based on the situationR5Technology constraints7535MitigationConduct a thorough technology assessment, plan for contingencies, and have backup technology
+options.Ongoing throughout the project$8,000
+
+R6Positive: High user engagement3927ExploitationLeverage user engagement for additional features and benefits and launch a referral
+program.Ongoing throughout the projectVariable based on additional features.
+Tast 2.
+
+
+Table 17 -Probability/Impact Matrix for the Recreation and Wellness Intranet Project's Risk Register
+
+Risk IDProbabilityImpactRisk ScoreR18972R26742R35630R44832R57535R63927
+Rationale for scores (Negative risk - R1):
+* Probability: Key team members leaving is given a high probability (8) because it's a common challenge in projects.
+* Impact: The impact of losing key team members is very high (9) because it can lead to significant project delays and quality issues.
+Rationale for scores (Positive risk - R6):
+* Probability: High user engagement is assigned a relatively low probability (3) because it's a positive outcome that is achievable but not guaranteed.
+* Impact: The impact of high user engagement is very high (9) as it can lead to cost savings, improved health outcomes, and additional project benefits.
+
+Tast 3.
+Response strategies:
+
+
+Negative risk - R1 (Key team members leaving):
+* Response strategy: Mitigation
+* Tasks required:
+o Identify potential replacements for key team members in advance.
+o Update the project plan to accommodate changes in team composition.
+o Provide additional training to new team members if necessary.
+* Time Estimate: 2 months
+* Cost Estimate: $10,000
+Positive risk - R6 (High user engagement):
+* Response strategy: Exploitation
+* Tasks required:
+o Identify additional features or benefits that can be added to the project to leverage high user engagement.
+o Develop and integrate these features into the project plan.
+o Launch a referral program to encourage existing users to bring in more participants.
+* Time Estimate: Ongoing throughout the project
+* Cost Estimate: Variable, based on the scope of additional features and the incentives for the referral program.
+The goal of these reaction techniques is to maximize the benefits for the Recreation and Wellness Intranet Project while minimizing the negative effects of potential hazards.
+
+
+
+
+
+Tast 1.
+
+PART 7: PROJECT STAKEHOLDER MANAGEMENT
+
+
+Table 18 - The Recreation and Wellness Intranet project's stakeholders register
+
+
+NameProject RoleInternal/ ExternalPositionContact InformationCommunication MethodTonyProject managerInternalLeadertopy@myh.comWeekly status meetings, email, phone callsHillaryProject sponsorInternalSponsorhilary@myh.comWeekly status meetings, email, phone callsPatrickAspiring project managerInternalLeaderpatrick@myh.comWeekly status meetings, email, phone callsMandeepProgrammer/ analystInternalTeam membermandeep@myh.comWeekly status meetings, email, code reviewsVinhProgrammer/ analystInternalTeam membervinh@myh.comWeekly status meetings, email, code reviews
+
+SyedNetwork specialistInternalTeam membersyed@myh.comWeekly status meetings, emailNancyNetwork specialistInternalTeam membernancy@myh.comWeekly status meetings, emailAnneBusiness analystInternalTeam memberanne@myh.comWeekly status meetings, emailSonamBusiness analystInternalTeam membersonam@myh.comWeekly status meetings, emailGayleVP of human resourcesInternalSponsorgayle@myh.comMonthly status meetings, email, phone
+callsRusiraHuman resource AnalystInternalSpecialistrusira@myh.comEmail, phone callsYuFinancial analystInternalSpecialistyu@myh.comMonthly status meetings, emailSupplier ASystem trainerExternalSuppliersuppliera@myh.comWeekly status meetings, email
+
+20,000 full-
+time employeesEmployeesInternalTest system/ End userfulltime.employee@myh.comEmail, employee surveys5,000 part-
+time employeesEmployeesInternalTest system/ End userparttime.employee@myh.comEmail, employee surveys
+Tast 2.
+
+Table 19 - Stakeholder engagement plan for the Recreation and Wellness Intranet project
+
+
+Name	Project Role	Level of authority	InterestTonyProject managerHighLeadingPatrickProject managerHighLeadingHillaryProject sponsorHighLeadingMandeepProgrammer/ analystMediumSupportiveVinhProgrammer/ analystMediumSupportiveSyedNetwork specialistMediumSupportiveNancyNetwork specialistMediumSupportiveSonamBusiness analystMediumSupportiveBonnieBusiness analystMediumSupportiveGayleVP of human resourcesHighLeadingRusiraHuman resource AnalystMediumSupportiveYuFinancial analystMediumSupportive
+
+Supplier ASystem trainerLowNeutral20,000 full-time employeesEmployeesLowNeutral5,000 part-time employeesEmployeesLowNeutral
+
+
+Table 20 - Stakeholder management strategy for the Recreation and Wellness Intranet project
+
+
+Stakeholder	Role	Most important goal	How will he/she	Best way to manage
+contributeHillaryProject SponsorEnsure that the MYH Recreation and Wellness System meets the needs of the business and its
+users.Will provide support and resources to the project team and approve key decisions.Keep the project sponsor informed of the project's progress and any potential roadblocks. Regularly seek the project sponsor's input and
+feedback.GayleVP of Human ResourcesEnsure that the MYH Recreation and Wellness System meets the needs of the human resourcesWill provide input on the system's requirements and help to promote the system
+to employees.Keep Gayle informed of the progress of the project and seek her input on any aspects of the system that may impact the human resources
+department or its employees.
+
+department and its
+employees.Supplier ATraining and Incentives ProviderProvide training on the MYH Recreation and Wellness System to employees and manage the incentives program.Will develop and deliver training materials and manage the incentives program.Work with Supplier A to develop a training plan and incentives program that meets the needs of the project.
+Regularly communicate with Supplier
+A to ensure that the training and incentives program are on track.EmployeesFull-Time and Part- Time EmployeesUse the MYH Recreation and Wellness System to improve their health and well-being.Will use the system to track their fitness goals, participate in wellness programs, and earn incentives.Communicate with employees about the benefits of using the system and provide them with support and training. Regularly collect feedback from employees on the system and
+use it to make improvements.
+PART 8: PROJECT CLOSING AND LESSONS-LEARNED
+Tast 1.
+
+All the specified success criteria for the Recreation and Wellness Intranet Project were satisfied:
+
+Scope: The project developed a web-based application that records employee activity, provides rewards, and enables staff members to sign up for company-sponsored classes, leisure activities, and health-management programs.
+
+Time: In consistent with the initial plan, the project was finished in six months.
+
+Cost: The project stayed within the original budget of $200,000.
+
+Self-sufficiency: The project achieved self-sufficiency within one year of implementation, meaning that the revenue generated from the incentive program is now covering the cost of maintaining and operating the application.
+
+Critical lessons learned: Managing the Recreation and Wellness Intranet Project taught the project team some important lessons:
+
+* Be proactive in managing stakeholder expectations. It is important to keep stakeholders informed of the project progress and any changes to the plan, even if they are not directly involved in the day-to-day work. This helps to avoid surprises and ensure that everyone is on the same page.
+
+* Use a variety of communication channels to reach stakeholders. Not everyone prefers the same way to communicate. Some stakeholders may prefer email, while others may prefer face-to-face meetings or phone calls. It is important to use a variety of communication channels to ensure that everyone can stay informed.
+
+* Create a detailed project plan and budget. This will help to keep the project on track and avoid overspending. In order to ensure that the project plan and budget are still valid, it is also crucial to keep monitoring them.
+* Conduct thorough testing of the application before launch. This will help to identify and fix any bugs or usability issues. It is also important to get feedback from users before launching the application to ensure that it meets their needs.
+* Track and measure the success of the application. This will help to identify what is working well and what needs to be improved. It is also important to share the success of the application with stakeholders to show them the value of the project.
+
+Tast 2.
+
+Examples of what went right:
+
+* Effective collaboration with stakeholders: The project team established a robust rapport with stakeholders, facilitating the comprehensive definition of requirements. This engagement ensured that the final product seamlessly aligned with users' needs. For instance, conducting an employee survey provided invaluable insights into recreational programs, health-management classes, and incentives.
+* Methodical project management: The team's adherence to a structured project management methodology proved instrumental in project success. The utilization of tools like Gantt charts for scheduling and risk registers for risk assessment and mitigation ensured that the project adhered to timelines and goals.
+* Rigorous application testing: Prior to the official launch, the project team rigorously tested the application, uncovering and rectifying bugs and usability concerns. User acceptance testing, involving a select group of employees, was conducted to gather feedback and refine the application before its organization-wide deployment.
+* Proactive application promotion: To guarantee the application's success, the team actively promoted it among employees. Creating a dedicated website, establishing a social media presence, and sending out informative email announcements encouraged its adoption.
+* We implemented Confluence as our primary document management system for this project, and it proved to be a highly effective and indispensable tool. Confluence, as a collaborative workspace, offered a wide range of features that greatly enhanced our project's document management capabilities.
+
+
+
+Figure 17 - Using Confluence in the project management
+
+Examples of what went wrong.
+
+* One challenge encountered was underestimating the time required for application development and launch. For instance, the team miscalculated the development duration for the data tracking system, necessitating last-minute efforts, and causing stress to meet the deadline.
+* The departure of key team members for better opportunities resulted in delays and knowledge gaps. The absence of suitable backups for these experts led to the recruitment of new employees, incurring additional delays and costs.
+
+What we might change for the upcoming project
+
+We would approach the next project differently, having learned from our experience with the Recreation and Wellness Intranet Project:
+
+* Keep stakeholders informed about the team's composition and any potential hazards early and frequently. Expectations will be better managed and unpleasant surprises
+
+will be avoided. Stakeholders would be updated on project progress and any modifications to the plan through frequent status meetings. Additionally, we would give out frequent email updates.
+* By determining the maximum buffer period, we can create a project schedule and budget that are more specific. By doing this, delays and wasteful money would be reduced.
+* Identify the main players on the team and create backup plans for each position. This can need instructing more team members on the relevant skills, or it might entail using consultants to cover for absent team members.
+
+We believe that with the identified solution for multiple issues based on this project, we can ensure that future projects are successful.
+
+Additional thoughts
+
+Throughout our project's duration, we saw a notable level of accomplishment, with teamwork and structured organization taking centre stage. A cornerstone of this achievement was our adoption of collaborative tech tools. Primarily, GitHub emerged as our chief project coordination platform, harmoniously working alongside Microsoft 365's comprehensive toolkit, with a special nod to Microsoft Project. Tasks were systematically listed on a GitHub project board, allowing team members to pick and assign tasks based on consensus during team discussions. They could also update their statuses and benchmark their pace against predetermined deadlines. Many assignments were prepared using cloud versions of Microsoft Word, Excel, and Project, and completed tasks were archived in a shared folder on Microsoft OneDrive. These platforms made it possible to assign tasks and monitor progress, which encouraged members to take responsibility for their actions. The real-time updating feature and the capacity for simultaneous collaborative efforts minimized potential lags in our timeline, leading to a smooth, timely, and harmonious working environment.
+
+
+PART 9: UML DIAGRAMS
+UML diagrams for the Recreation and Wellness system:
+
+Class diagram:
+
+
+Figure 18 - Class diagram for the Recreation and Wellness system
+
+Use case diagram:
+
+
+Figure 19 - Use case diagram for the Recreation and Wellness system.
+
+Use case description:
+
+Table 21 -Use case description for place order in the Recreation and Wellness system.
+
+
+Use case	Place orderActorsCustomerDescriptionThe procedure by which a consumer orders healthcare goods and services from Manage Your Health, Inc. (MYH) is described in this use casePreconditionsThe customer is logged into MYH's online platformMain flow1. The client chooses medical supplies and services from MYH's catalogue.
+2. For each item chosen, the customer specifies the numbers and variations.
+3. The algorithm determines the order's final price, considering any applicable taxes, shipping costs, and discounts.
+4. After reviewing the order information, the customer checks out.
+5. The customer verifies the order and enters payment details (credit card, PayPal, etc.).
+6. The system creates and sends the consumer an order
+confirmationPostconditionsThe customer's order is placed, and the order details are stored in the system. The customer receives an order confirmation
+Table 22 -Use case description for program enrolment in the Recreation and Wellness system
+
+Use case	Program enrolmentActorsEmployee, CustomerDescriptionThis use case explains how clients and staff members can sign up for different MYH programmers, such as wellness and leisure-
+related onesPreconditionsThe employee or customer is logged into MYH's platform, and program enrollment is availableMain flow1. The user navigates to the list of available programs.
+2. The user selects a program of interest.
+3. The system provides program details, including descriptions and schedules.
+4. The user chooses to enroll in the program and provides any required information (e.g., health goals).
+5. The system records the enrollment and updates program
+participation data.PostconditionsThe employee or customer is enrolled in the selected program, and
+participation information is updated
+
+Table 23 -Use case description for track order status in the Recreation and Wellness system
+
+Use case	Track order statusActorsCustomer
+DescriptionThis use case allows customers to track the status and progress of their orders placed with MYHPreconditionsThe customer is logged into MYH's online platform, and an order has been placed.Main flow1. The customer visits the platform's "Order Status" section.
+2. A list of the customer's most recent orders is shown by the system.
+3. The consumer decides which order they want to track.
+4. The system offers up-to-the-minute updates on the order's progress, including information on order processing, shipping,
+and anticipated delivery dates.PostconditionsThe customer receives updated information on the selected order's
+status.
+
+Table 24 -Use case description for manage employee health in the Recreation and Wellness system
+
+Use case	Manage employee healthActorsEmployeeDescriptionThis use case enables staff members to enhance their wellness and take part in health-related initiatives by using MYH's health and
+wellness applications.PreconditionsThe employee is logged into MYH's platform and has access to health and wellness applicationsMain flow1. The employee decides on a wellness or health programme.
+2. The system offers enrollment alternatives and programme information.
+3. The employee signs up for the programme and establishes health objectives.
+4. The programme is used by the employee to monitor health metrics and advancement.
+5. The system offers praise, incentives, or awards for reaching
+objectives.PostconditionsThe employee's health and participation data are updated, and they
+may receive rewards or incentives based on program achievements
+
+
+Sequence Diagram:
+
+
+Figure 20 - Sequence diagram for the Recreation and Wellness system
+
+Activity Diagram:
+
+
+Figure 21 - Activity diagram for in the Recreation and Wellness system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
