@@ -849,7 +849,7 @@
 	\renewcommand{\rightmark}{\textsl{\nouppercase\@rmk}}
   %% great!
 	%
-	\fancyfoot{}  % clear footer
+	%\fancyfoot{}  % clear footer
 	%
 	\if@twoside{    % No panic! @twoside is a LaTeX switch, not TeX one as it appears to be
   	%%
