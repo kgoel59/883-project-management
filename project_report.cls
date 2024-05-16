@@ -793,6 +793,11 @@
 	%
 	\pagestyle{headings}%
 	\pagenumbering{roman}%
+
+  \input{abstract.tex}
+  \input{contribution.tex}
+  
+
 	\tableofcontents           % Required: Table of Contents
   %% if no \noListOfTables
 	\ifListOfTables{%
