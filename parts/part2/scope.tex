@@ -2,6 +2,24 @@
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+
+\AddToShipoutPictureBG{%
+\begin{tikzpicture}[overlay,remember picture]
+\draw[line width=4pt]
+    ($ (current page.north west) + (1cm,-1cm) $)
+    rectangle
+    ($ (current page.south east) + (-1cm,1cm) $);
+\draw[line width=1.5pt]
+    ($ (current page.north west) + (1.2cm,-1.2cm) $)
+    rectangle
+    ($ (current page.south east) + (-1.2cm,1.2cm) $);
+\end{tikzpicture}
+}
+
+
 \title{Project Scope Statement: Recreation and Wellness Intranet Project}
 \author{Prepared by: Tony Prince, Project Manager \\ Version 1}
 \date{Start Date: February 1, 2024 \\ End Date: October 9, 2024}
