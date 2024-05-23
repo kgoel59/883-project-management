@@ -1,5 +1,7 @@
 \chapter{UML Diagrams}
-Need to be added yet
+
+This Part presents the exhibits for the project created by the team
+
 \section{Domain Class Diagram}
 
 \begin{figure}[h!t]
@@ -9,8 +11,9 @@ Need to be added yet
     \label{fig:domainClass}
 \end{figure}
 
-\section{Use Case Diagram}
+\FloatBarrier
 
+\section{Use Case Diagram}
 
 \begin{table}[h!t]
 \caption{The Registration Subsystem Use Cases}
@@ -173,46 +176,46 @@ Need to be added yet
     \label{fig:ucAnaysis}
 \end{figure}
 
+\FloatBarrier
 
 \section{Fully Developed Use Case Description}
 
 \begin{table}[h!t]
-\caption{Register/Create Account}
-
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline
-
-\rule{0pt}{24pt}  \textbf{Use case name:} & Create employee account \\
-\hline
-\rule{0pt}{24pt}  \textbf{Scenario:} & Create online employee account \\
-\hline
-\rule{0pt}{24pt}  \textbf{Triggering event:} & Employee wants to join the recreational and wellness programs \\
-\hline
-\rule{0pt}{24pt}  \textbf{Brief description:} & Employee signs up or creates new account by providing their employee email id to access, book and participate in activity \\
-\hline
-\rule{0pt}{24pt}  \textbf{Actors:} & Employees \\
-\hline
-\rule{0pt}{24pt}  \textbf{Related use cases:} & Admin can create account on behalf of employee \\
-\hline
-\rule{0pt}{24pt}  \textbf{Stakeholders:} & Admin, HR \\
-\hline
-\rule{0pt}{24pt}  \textbf{Pre-conditions:} & Registration subsystem must be available \\
-% Employees must have employer's provided email_id \\
-% Employees must verify the account by clicking on verify link sent on the email
-\hline
-\rule{0pt}{24pt}  \textbf{Post-conditions:} & Employee account must be created and saved \\
-% All the activity must be tracked like badge, rewards received.
-\hline
-\rule{0pt}{24pt}  \textbf{Exception conditions:} & Employee might not have email id provided by employer \\
-% Employee have not verified the account by clicking on verification link sent on the mail.
-% Email_id provided is invalid
-\hline
-\end{tabular}
-\end{center}
-\label{tab:createAccount}
-\end{table}
-
+    \caption{Register/Create Account}
+    \begin{center}
+    \small % Set font size to small
+    \begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \rule{0pt}{24pt}  \textbf{Use case name:} & Create employee account \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Scenario:} & Create online employee account \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Triggering event:} & Employee wants to join the recreational and wellness programs \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Brief description:} & Employee signs up or creates new account by providing their employee email id to access, book and participate in activity \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Actors:} & Employees \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Related use cases:} & Admin can create account on behalf of employee \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Stakeholders:} & Admin, HR \\
+    \hline
+    \rule{0pt}{24pt}  \textbf{Pre-conditions:} & Registration subsystem must be available \\
+    % Employees must have employer's provided email_id \\
+    % Employees must verify the account by clicking on verify link sent on the email
+    \hline
+    \rule{0pt}{24pt}  \textbf{Post-conditions:} & Employee account must be created and saved \\
+    % All the activity must be tracked like badge, rewards received.
+    \hline
+    \rule{0pt}{24pt}  \textbf{Exception conditions:} & Employee might not have email id provided by employer \\
+    % Employee have not verified the account by clicking on verification link sent on the mail.
+    % Email_id provided is invalid
+    \hline
+    \end{tabularx}
+    \end{center}
+    \label{tab:createAccount}
+    \end{table}
+\FloatBarrier
 
 \section{Sequence Diagram}
 
@@ -223,6 +226,7 @@ Need to be added yet
     \label{fig:sequenceDiagram}
 \end{figure}
 
+\FloatBarrier
 
 \section{Activity Diagram}
 
@@ -239,6 +243,19 @@ Need to be added yet
     \caption{Activity Diagram of Create Account use case}
     \label{fig:activityCreateAccount}
 \end{figure}
+
+\FloatBarrier
+
+\section{Final Product Design - Figma}
+
+\begin{figure}[h!t]
+    \centering
+    \includegraphics[width=\textwidth]{images/Design.png}
+    \caption{Final Product Design - Figma}
+    \label{fig:finalproductdesign}
+\end{figure}
+
+\includepdf[pages=-]{parts/part9/design.pdf}
 
 \FloatBarrier
 \newpage
